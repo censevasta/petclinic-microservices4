@@ -1,6 +1,11 @@
 nodes:
+<<<<<<< HEAD
   - address: 172.31.71.10
     internal_address: 172.31.71.10
+=======
+  - address: 172.31.66.169
+    internal_address: 172.31.66.169
+>>>>>>> feature/msp-23
     user: ubuntu
     role: [controlplane, worker, etcd]
 
@@ -10,7 +15,7 @@ services:
     creation: 6h
     retention: 24h
 
-ssh_key_path: ~/.ssh/cengo.pem
+ssh_key_path: ~/.ssh/call-rancher.key
 
 # Required for external TLS termination with
 # ingress-nginx v0.22+
