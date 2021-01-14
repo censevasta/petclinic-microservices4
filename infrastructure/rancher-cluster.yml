@@ -1,6 +1,11 @@
 nodes:
+<<<<<<< HEAD
+  - address: 172.31.71.10
+    internal_address: 172.31.71.10
+=======
   - address: 172.31.66.169
     internal_address: 172.31.66.169
+>>>>>>> feature/msp-23
     user: ubuntu
     role: [controlplane, worker, etcd]
 
