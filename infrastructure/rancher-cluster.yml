@@ -1,6 +1,6 @@
 nodes:
-  - address: 3.236.142.225
-    internal_address: 172.31.71.10
+  - address: 172.31.66.169
+    internal_address: 172.31.66.169
     user: ubuntu
     role: [controlplane, worker, etcd]
 
@@ -10,7 +10,7 @@ services:
     creation: 6h
     retention: 24h
 
-ssh_key_path: ~/.ssh/cengo.pem
+ssh_key_path: ~/.ssh/call-rancher.key
 
 # Required for external TLS termination with
 # ingress-nginx v0.22+
